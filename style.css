@@ -1,107 +1,79 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: linear-gradient(45deg, #27dbe9, #e3e67d);
-    height: 100vh;
-}
-
-.sign-log-area {
-    text-align: center;
-}
-
-.sign-log-area a {
-    font-size: 16px;
-    font-family: sans-serif;
-    color: rgba(255, 255, 255, 0.8);
-    text-decoration: none;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    padding: 10px 0;
-    width: 50%;
-    float: left;
-    text-align: center;
-    transition: 0.3s ease-in-out;
-}
-
-.sign-up {
-    background: #1ab188;
-    border-radius: 5px 0 0 5px;
-}
-
-.sign-up:hover {
-    background: #1dcf9e;
-}
-
-.log-in {
-    background: #435259;
-    border-radius: 0 5px 5px 0;
-}
-
-.log-in:hover {
-    background: #505e65;
-}
-
-.form-box {
-    width: 600px;
-    margin: auto;
-    background-color: black;
-    border-radius: 10px;
-    padding: 55px 50px;
-    text-align: center;
-}
-
-.form-box form {
-    text-align: center;
-}
-
-.form-box form input {
-    width: 500px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.form-box form label {
-    text-align: center;
-}
-
-.btn {
-    background: #1ab188;
-    color: white;
-    width: 500px !important;
-    font-size: 16px;
-    border-radius: 5px 0 0 5px;
-}
-
-.btn:hover {
-    background: #13d4a1;
-}
-
-.Social-Icons {
-    text-align: center;
-}
-
-.Social-Icons ul li {
-    list-style: none;
-    display: inline-block;
-    margin-top: 20px;
-}
-
-.Social-Icons ul li a i {
-    height: 60px;
-    width: 60px;
-    background-color: aliceblue;
-    line-height: 60px;
-    border-radius: 100%;
-    font-size: 22px;
-    transition: 0.5s;
-}
-
-.Social-Icons ul li a i:hover {
-    transform: scale(1.4);
-    transition: 0.5s;
-}
+                        * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                    }
+                    
+                    html,
+                    body {
+                        display: flex;
+                        justify-content: center;
+                        font-family: Roboto, Arial, sans-serif;
+                        font-size: 15px;
+                    }
+                    
+                    form {
+                        border: 5px solid #f1f1f1;
+                    }
+                    
+                    input[type=text],
+                    input[type=password] {
+                        width: 100%;
+                        padding: 16px 8px;
+                        margin: 8px 0;
+                        display: inline-block;
+                        border: 1px solid #ccc;
+                        box-sizing: border-box;
+                    }
+                    
+                    .icon {
+                        font-size: 110px;
+                        display: flex;
+                        justify-content: center;
+                        color: #4286f4;
+                    }
+                    
+                    button {
+                        background-color: #4286f4;
+                        color: white;
+                        padding: 14px 0;
+                        margin: 10px 0;
+                        border: none;
+                        cursor: grab;
+                        width: 48%;
+                    }
+                    
+                    h1 {
+                        text-align: center;
+                        fone-size: 18;
+                    }
+                    
+                    button:hover {
+                        opacity: 0.8;
+                    }
+                    
+                    .formcontainer {
+                        text-align: center;
+                        margin: 24px 50px 12px;
+                        width: 500px;
+                        background: linear-gradient(#27dbe9, #e3e67d);
+                    }
+                    
+                    .container {
+                        padding: 16px;
+                        text-align: left;
+                        border-radius: 10px;
+                    }
+                    
+                    span.psw {
+                        float: right;
+                        padding-top: 0;
+                        padding-right: 15px;
+                    }
+                    /* Change styles for span on extra small screens */
+                    
+                    @media screen and (max-width: 300px) {
+                        span.psw {
+                            display: block;
+                            float: none;
+                        }
